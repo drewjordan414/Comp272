@@ -24,7 +24,7 @@ package HW1;
           ***************************************/
  
  
-         HW1.LinkedList list1 = new HW1.LinkedList();
+         JordanHW1.LinkedList list1 = new JordanHW1.LinkedList();
  
          // Insert the values
          list1.sortedInsert(1);
@@ -62,7 +62,7 @@ package HW1;
          }
  
          // Additional link-list tests
-         HW1.LinkedList list2 = new HW1.LinkedList();
+         JordanHW1.LinkedList list2 = new JordanHW1.LinkedList();
  
          list2.sortedInsert(1003);
          list2.sortedInsert(4004);
@@ -114,22 +114,22 @@ package HW1;
  
          // System.out.println("Starting isPalindrone testing ...");
  
-         if ( ! HW1.Stacks.isPalindrome("Was it a car or a cat I saw")) {
+         if ( ! JordanHW1.Stacks.isPalindrome("Was it a car or a cat I saw")) {
              System.out.println("ERROR 8: ispalindrome test failed");
              errorFlag = true;
          }
  
-         if ( ! HW1.Stacks.isPalindrome("Race Car")) {
+         if ( ! JordanHW1.Stacks.isPalindrome("Race Car")) {
              System.out.println("ERROR 9: ispalindrome test failed");
              errorFlag = true;
          }
  
-         if ( ! HW1.Stacks.isPalindrome("Never odd or even")) {
+         if ( ! JordanHW1.Stacks.isPalindrome("Never odd or even")) {
              System.out.println("ERROR 10: ispalindrome test failed");
              errorFlag = true;
          }
  
-         if ( HW1.Stacks.isPalindrome("civic2")) {
+         if ( JordanHW1.Stacks.isPalindrome("civic2")) {
              System.out.println("ERROR 11: ispalindrome test failed");
              errorFlag = true;
          }
@@ -161,17 +161,17 @@ package HW1;
  
          // System.out.println(myStack);
  
-         if ( HW1.Stacks.findLargestK(myStack, 1) != 4) {
+         if ( JordanHW1.Stacks.findLargestK(myStack, 1) != 4) {
              System.out.println("ERROR 12: findLargestk test failed");
              errorFlag = true;
          }
  
-         if ( HW1.Stacks.findLargestK(myStack, 5) != 0) {
+         if ( JordanHW1.Stacks.findLargestK(myStack, 5) != 0) {
              System.out.println("ERROR 13: findLargestk test failed");
              errorFlag = true;
          }
  
-         if ( HW1.Stacks.findLargestK(myStack, 4) != 3) {
+         if ( JordanHW1.Stacks.findLargestK(myStack, 4) != 3) {
              System.out.println("ERROR 14: findLargestk test failed");
              errorFlag = true;
          }

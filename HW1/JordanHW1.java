@@ -1,8 +1,20 @@
 package HW1;
 
+/*
+ * *** Drew Jordan / 002 ***
+ *
+ * Homework # 1 (Programming Assignment). This Java class defines some basic
+ * manipulation operations on Linked-Lists and Stacks.
+ *
+ * Additionally, there are two algorithm analysis methods where you need
+ * to return a specified number as provided in comments of each method indicating
+ * the complexity of the code shown. The testing routine will be looking for a
+ * specific number returned.
+ */
+
 import java.util.Stack;
 
-public class HW1 {
+public class JordanHW1 {
 
     static class LinkedList {
         static class Node {
@@ -100,7 +112,6 @@ public class HW1 {
         
             // System.out.println("Initial Stack: " + stack);
         
-            // Traverse through the stack
             while (!stack.isEmpty()) {
                 int element = stack.pop();
                 tempStack.push(element);
@@ -111,7 +122,7 @@ public class HW1 {
                     largestIndex = currentIndex; // Update largest index when k is found
                     // System.out.println("Found Element " + k + " at Index " + currentIndex);
                 }
-                currentIndex--; // Decrement index as we go through the stack
+                currentIndex--; 
             }
         
             // Restore the original stack
