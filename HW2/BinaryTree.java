@@ -2,7 +2,7 @@ package HW2;
 
 
 /*
- * *** PLACE YOUR NAME / SECTION HERE ***
+ * *** Drew Jordan / SECTION 002 ***
  *
  * Homework # 2 (Programming Assignment). This Java class defines a few basic
  * manipulation operations of a binary trees.
