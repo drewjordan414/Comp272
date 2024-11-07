@@ -1,6 +1,6 @@
 package HW4;
 /* 
- * *** YOUR NAME GOES HERE / YOUR SECTION NUMBER ***
+ * *** Drew Jordan / 002 ***
  *
  * This hashMap object represents an over simplification of Java's implementation of HashMap within
  * Java's Collection Framework Library. You are to complete the following methods:
