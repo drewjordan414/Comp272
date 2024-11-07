@@ -2,7 +2,7 @@ package HW5;
 
 /******************************************************************
  *
- *   YOUR NAME / SECTION NUMBER
+ *   Drew Jordan / 002
  *
  *   Note, additional comments provided throughout source code is
  *   for educational purposes.
