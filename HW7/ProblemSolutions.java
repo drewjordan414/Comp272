@@ -78,7 +78,6 @@ public class ProblemSolutions {
 
     public void mergeSortDivisibleByKFirst(int[] values, int k) {
 
-        // Protect against bad input values
         if (k == 0)
             return;
         if (values.length <= 1)
@@ -201,9 +200,9 @@ public class ProblemSolutions {
 
         for (int asteroid : asteroids) {
             if (mass < asteroid) {
-                return false; // Planet can't destroy this asteroid
+                return false; 
             }
-            mass += asteroid; // Planet gains the asteroid's mass
+            mass += asteroid; 
         }
 
         return true;
